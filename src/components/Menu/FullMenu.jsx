@@ -107,17 +107,17 @@ export default function FullMenu() {
   return (
     <div id="full-menu" className="p-6">
       {/* Heading */}
-      <h2 className="text-3xl font-extrabold text-center mb-6 text-gray-800">Our Menu</h2>
+      <h2 className="text-3xl font-extrabold text-center mb-6 text-gray-800">Our Menu  → </h2>
 
       {/* Scrollable Categories Bar */}
-      <div className="sticky top-0 bg-gray-100 z-10 py-3">
+      <div className="sticky top-0 bg-yellow-200 z-10 py-6">
         <div className="flex overflow-x-auto space-x-4 px-4 scrollbar-hide">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => {setActiveCategory(category); handleClick();}}
               className={`px-4 py-2 whitespace-nowrap rounded-lg text-lg font-semibold transition-all
-                ${activeCategory === category ? "bg-primary text-white" : "bg-gray-200 text-gray-800 hover:bg-yellow-400 hover:text-white"}
+                ${activeCategory === category ? "bg-primary text-white" : "bg-gray-100 text-gray-800 hover:bg-yellow-400 hover:text-white"}
               `}
             >
               {category}
