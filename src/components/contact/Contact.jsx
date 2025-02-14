@@ -22,9 +22,9 @@ const Contact = () => {
         </div>
 
       <div className="flex gap-4 text-gray-800 mb-6">
-      <a href="mailto:support@knowledgelink.co.in" target='_blank' className='text-2xl sm:text-4xl hover:text-primary hover:-translate-y-1 transition-all ease-in-out '><TfiEmail /></a>
+      <a href="mailto:bpal3233@gmail.com" target='_blank' className='text-2xl sm:text-4xl hover:text-primary hover:-translate-y-1 transition-all ease-in-out '><TfiEmail /></a>
       <a href="https://wa.me/919084178561?text=Hello!%20I%20would%20like%20to%20contact%20you." target='_blank' className='text-2xl sm:text-4xl hover:text-primary  hover:-translate-y-1 transition-all ease-in-out'><FaWhatsapp /></a>
-      <a href="https://www.instagram.com/knowledgelink_pvtlmt/" target='_blank' className='text-2xl sm:text-4xl hover:text-primary  hover:-translate-y-1 transition-all ease-in-out'><FaInstagram /></a>
+      <a href="https://www.instagram.com/diamond_pizza_restaurant?igsh=MWw2NGUzMmU5NTZ2cQ%3D%3D" target='_blank' className='text-2xl sm:text-4xl hover:text-primary  hover:-translate-y-1 transition-all ease-in-out'><FaInstagram /></a>
       </div>
     </div>
     </>

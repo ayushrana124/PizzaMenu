@@ -76,10 +76,15 @@ const menuItems = [
   { id: 53, name: "Choco LavaCake", category: "Newly Launched", price: "₹120", image: "../.././sides/chocolava.png" },
   { id: 55, name: "Chole Bhature", category: "Newly Launched", price: "₹120", image: "../.././sides/cholebhature.png" },
   { id: 68, name: "Kulhad Pizza", category: "Newly Launched", price: "₹140", image: "../.././kulhadpizza.png" },
+
+  { id: 69, name: "Aloo Masala Dosa", category: "Dosa", price: "₹120", image: "../.././sides/aloomasaladosa.png" },
+  { id: 70, name: "Onion Masala Dosa", category: "Dosa", price: "₹130", image: "../.././sides/onionmasaladosa.png" },
+  { id: 71, name: "Paneer Dosa", category: "Dosa", price: "₹150", image: "../.././sides/paneerdosa.png" },
+  { id: 72, name: "Loaded Masala Dosa", category: "Dosa", price: "₹180", image: "../.././sides/loadedmasaladosa.png" },
   
 ];
 
-const categories = ["Pizza Mania","Veg Pizza's","Newly Launched", "Chinese", "Drinks", "Sides", "Snacks", "Maggie", "Sandwich"];
+const categories = ["Pizza Mania","Veg Pizza's","Newly Launched", "Chinese", "Drinks", "Sides", "Snacks", "Maggie", "Sandwich", "Dosa"];
 
 export default function FullMenu() {
   const [activeCategory, setActiveCategory] = useState("Pizza Mania");

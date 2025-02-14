@@ -5,7 +5,7 @@ import { IoMdCall } from "react-icons/io";
 
 const footerItems = [
     { name: IoMdCall , href: 'tel:+919084178561'},
-    { name: TfiEmail, href: "mailto:support@knowledgelink.co.in" },
+    { name: TfiEmail, href: "mailto:bpal3233@gmail.com" },
     { name: FaWhatsapp, href: "https://wa.me/919084178561?text=Hello!%20I%20would%20like%20to%20contact%20you." },
   ]  
 
